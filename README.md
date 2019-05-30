@@ -4,7 +4,7 @@
 
 For this project, we set out to help adults in expanding a their whiskey palette through a recommendation system. We webscrapped Whiskeybase.com for their top 1000 rated whiskies as well as their list of newly released whiskies to get user ratings, user names, and the whiskey to build our recommender. Please see below for how our recommender system works
 
-![](name-of-gif.gif)
+![](whiskey_rec.gif)
 
 As you see above, we ask the end-user to input how many recommendations they would like as well as their budget. We then ask them to rate 5 whiskies that fall within their budget. If the user has not tasted the whiskey before, we provide a URL for them to go to the whiskeybase site for additional information to make an educated case. We also give the user an option for a new whiskey to rate by pressing 'n'. 
 
@@ -27,7 +27,7 @@ Our final dataframe has 1,223 unique users, 1,092 unique whiskies, and 41,018 to
 <u><b> Distribution of Ratings </b></u>
 
 <p align="center">
-  <img src="./Flatiron_Mod_4_Recommendation_System/Images/Ratings.png" title="Ratings">
+  <img src="./Flatiron_Mod_4_Recommendation_System/Images/rating_counts.png" title="Ratings">
 </p>
 
 As we can see from the image above, most of the users on this site rated the whiskies fairly highly as a majority of our reviews range from mid 70's to 100. This makes sense as a lot of these whiskies are part of the top 1000 rated whiskies, so they should be highly rated.
@@ -36,7 +36,7 @@ As we can see from the image above, most of the users on this site rated the whi
 <u><b> Distribution of User Reviews </b></u>
 
 <p align="center">
-  <img src="./Flatiron_Mod_4_Recommendation_System/Images/User_Reviews.png" title="User_Reviews">
+  <img src="./Flatiron_Mod_4_Recommendation_System/Images/user_rating_counts.png" title="User_Reviews">
 </p>
 
 Based on the image above, the users on this site are fairly active with a majority of them having reviewed many different types of whiskies. To ensure our model would have enough data points to leverage, we filtered out users to only include ones who have over 5 reviews in total. 
