@@ -17,8 +17,9 @@ Once the user has reviewed 5 whiskies, we refit our model to include their prefe
 
 Once we consolidated our datasets and got rid of NaN values and duplicates, we took a look at how the users were rating the whiskies.
 
-
-<u><b> Preview of Dataframe </b></u>
+<p align="center">
+  <u><b> Preview of Dataframe </b></u>
+</p> 
 
 <p align="center">
   <img src="./Images/dataframe_preview.png" title="Data Collected" width="500" height="400">
@@ -26,8 +27,9 @@ Once we consolidated our datasets and got rid of NaN values and duplicates, we t
 
 Our final dataframe has 1,223 unique users, 1,092 unique whiskies, and 41,018 total reviews.
 
-
-<u><b> Distribution of Ratings </b></u>
+<p align="center">
+  <u><b> Distribution of Ratings </b></u>
+</p> 
 
 <p align="center">
   <img src="./Images/rating_counts.png" title="Data Collected" width="500" height="400">
@@ -35,8 +37,9 @@ Our final dataframe has 1,223 unique users, 1,092 unique whiskies, and 41,018 to
 
 As we can see from the image above, most of the users on this site rated the whiskies fairly highly as a majority of our reviews range from mid 70's to 100. This makes sense as a lot of these whiskies are part of the top 1000 rated whiskies, so they should be highly rated.
 
-
-<u><b> Distribution of User Reviews </b></u>
+<p align="center">
+  <u><b> Distribution of User Reviews </b></u>
+</p> 
 
 <p align="center">
   <img src="./Images/user_rating_counts.png" title="Data Collected" width="500" height="400">
@@ -49,7 +52,9 @@ Based on the image above, the users on this site are fairly active with a majori
 
 When deciding which model to ultimately used, we compared performances between different models within Surprise. This includes SVD, KNN_Basic, and KNN_Baseline. The results of all 3 models were incredibly close with a RMSE around 2.3780. 
 
-<u><b> RMSE Scores of the models </b></u>
+<p align="center">
+  <u><b> RMSE Scores of the models </b></u>
+</p> 
 
 <p align="center">
   <img src="./Images/model_rmse.png" title="Data Collected">
