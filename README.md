@@ -26,10 +26,6 @@ Once we consolidated our datasets and got rid of NaN values and duplicates, we t
 Our final dataframe has 1,223 unique users, 1,092 unique whiskies, and 41,018 total reviews.
 
 <p align="center">
-  <u><b> Distribution of Ratings </b></u>
-</p> 
-
-<p align="center">
   <img src="./Images/rating_counts.png" title="Data Collected" width="500" height="400">
 </p> 
 
