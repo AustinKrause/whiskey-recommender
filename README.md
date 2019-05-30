@@ -1,4 +1,4 @@
-# Flatiron_Mod_4_Recommendation_System
+# Whiskey Recommendation System
 
 ## Project Overview
 
