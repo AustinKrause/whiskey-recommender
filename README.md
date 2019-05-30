@@ -21,9 +21,7 @@ Once we consolidated our datasets and got rid of NaN values and duplicates, we t
   <u><b> Preview of Dataframe </b></u>
 </p> 
 
-<p align="center">
-  <img src="./Images/dataframe_preview.png" title="Data Collected" width="500" height="400">
-</p> 
+<img width="986" alt="Preview of Dataframe" src="https://user-images.githubusercontent.com/30739929/58657846-261ff780-82ed-11e9-9135-9f2138a60ae4.png">
 
 Our final dataframe has 1,223 unique users, 1,092 unique whiskies, and 41,018 total reviews.
 
