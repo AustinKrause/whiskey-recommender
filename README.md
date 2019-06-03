@@ -44,17 +44,17 @@ Based on the image above, the users on this site are fairly active with a majori
 
 ## Initial Models
 
-When deciding which model to ultimately used, we compared performances between different models within Surprise. This includes SVD, KNN_Basic, and KNN_Baseline. The results of all 3 models were incredibly close with a RMSE around 2.3780. 
+When deciding which model to ultimately use, we compared performances between different models within Surprise. This includes SVD, KNN_Basic, and KNN_Baseline. The results of all 3 models were incredibly close with a RMSE around 2.3780. 
 
 <p align="center">
   <u><b> RMSE Scores of the models </b></u>
 </p> 
 
-<p align="center">
-  <img src="./Images/model_rmse.png" title="Data Collected">
-</p> 
+<p align="center"><img width="560" alt="Screen Shot 2019-06-03 at 2 59 50 PM" src="https://user-images.githubusercontent.com/30739929/58827206-6db9c280-8610-11e9-90a3-7624609528de.png"></p>
 
-After tuning hyperparameters over several interations of GridSearch, our final model was SVD with the final error metric RMSE = 2.3076.
+
+The SVD hyperparameters we initially tested were n_factors=100, n_epochs=20, reg_all=0.02.  This produced an error metric RMSE of 2.3796.  After tuning hyperparameters over several interations of GridSearch, our final model was SVD with the final error metric RMSE = 2.3076. The best parameters we found were n_factors=40, reg_all=0.1, n_epochs=40.
+
 
 ## Conclusion
 
