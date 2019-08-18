@@ -58,7 +58,7 @@ The SVD hyperparameters we initially tested were n_factors=100, n_epochs=20, reg
 
 ## Conclusion
 
-Our recommendation system caters to our user by only recommending whiskies within their budget after they evaluate 5 whiskies that also fall within their budget. Throughout the entire process, our system is transparent to the end user and provides URL links to provide additional information in case the user decides to purchase a bottle based on our recommendations.
+Our recommendation system caters to our user by only recommending whiskies within their budget after they evaluate 5 whiskies that also fall under their inputted budget. Throughout the entire process, our system is transparent to the end user and provides URL links to provide additional information in case the user decides to purchase a bottle based on our recommendations.
 
 
 
