@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-For this project, we set out to help adults in expanding their whiskey palette through a recommendation system. We webscrapped Whiskeybase.com for their top 1000 rated whiskies as well as their list of newly released whiskies to get user ratings, user names, and the whiskey to build our recommender. Please see below for how our recommender system works
+For this project, we set out to help adults in expanding their whiskey palette through a recommendation system. We webscrapped Whiskeybase.com for their top 1000 rated whiskies as well as their list of newly released whiskies to get user ratings, user names, and the whiskey to build our recommender. Please see below for how our recommender system works.
 
 <p align="center">
   <img src="./Images/whiskey_rec.gif" title="System">
